@@ -8,4 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(
     gnc_simulator
     src/main.cpp
+    src/vector2D.cpp
 )
