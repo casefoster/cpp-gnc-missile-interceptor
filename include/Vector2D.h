@@ -13,6 +13,9 @@ public:
 
     double getX() const;
     double getY() const;
+    
+    void setX(double xValue);
+    void setY(double yValue);
 
     double magnitude() const;
 };
