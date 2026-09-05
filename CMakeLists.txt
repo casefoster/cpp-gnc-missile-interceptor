@@ -10,3 +10,9 @@ add_executable(
     src/main.cpp
     src/vector2D.cpp
 )
+
+target_include_directories(
+    gnc_simulator
+    PRIVATE
+    include
+)
